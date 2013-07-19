@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD61654D1799FCE200FA7F74 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD61654C1799FCE200FA7F74 /* Cocoa.framework */; };
+		BD6165571799FCE200FA7F74 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD6165551799FCE200FA7F74 /* InfoPlist.strings */; };
+		BD6165591799FCE200FA7F74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6165581799FCE200FA7F74 /* main.m */; };
+		BD61655D1799FCE200FA7F74 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BD61655B1799FCE200FA7F74 /* Credits.rtf */; };
+		BD6165601799FCE200FA7F74 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD61655F1799FCE200FA7F74 /* AppDelegate.m */; };
+		BD6165631799FCE200FA7F74 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD6165611799FCE200FA7F74 /* MainMenu.xib */; };
+		BD61656B1799FCE200FA7F74 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD61656A1799FCE200FA7F74 /* SenTestingKit.framework */; };
+		BD61656C1799FCE200FA7F74 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD61654C1799FCE200FA7F74 /* Cocoa.framework */; };
+		BD6165741799FCE200FA7F74 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD6165721799FCE200FA7F74 /* InfoPlist.strings */; };
+		BD6165771799FCE200FA7F74 /* AirPlayMacServerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6165761799FCE200FA7F74 /* AirPlayMacServerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD61656D1799FCE200FA7F74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD6165411799FCE100FA7F74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD6165481799FCE200FA7F74;
+			remoteInfo = AirPlayMacServer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD6165491799FCE200FA7F74 /* AirPlayMacServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirPlayMacServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD61654C1799FCE200FA7F74 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		BD61654F1799FCE200FA7F74 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		BD6165501799FCE200FA7F74 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BD6165511799FCE200FA7F74 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BD6165541799FCE200FA7F74 /* AirPlayMacServer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AirPlayMacServer-Info.plist"; sourceTree = "<group>"; };
+		BD6165561799FCE200FA7F74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BD6165581799FCE200FA7F74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD61655A1799FCE200FA7F74 /* AirPlayMacServer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AirPlayMacServer-Prefix.pch"; sourceTree = "<group>"; };
+		BD61655C1799FCE200FA7F74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		BD61655E1799FCE200FA7F74 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD61655F1799FCE200FA7F74 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD6165621799FCE200FA7F74 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BD6165691799FCE200FA7F74 /* AirPlayMacServerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirPlayMacServerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD61656A1799FCE200FA7F74 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		BD6165711799FCE200FA7F74 /* AirPlayMacServerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AirPlayMacServerTests-Info.plist"; sourceTree = "<group>"; };
+		BD6165731799FCE200FA7F74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BD6165751799FCE200FA7F74 /* AirPlayMacServerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AirPlayMacServerTests.h; sourceTree = "<group>"; };
+		BD6165761799FCE200FA7F74 /* AirPlayMacServerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirPlayMacServerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD6165461799FCE200FA7F74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD61654D1799FCE200FA7F74 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD6165651799FCE200FA7F74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD61656B1799FCE200FA7F74 /* SenTestingKit.framework in Frameworks */,
+				BD61656C1799FCE200FA7F74 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD6165401799FCE100FA7F74 = {
+			isa = PBXGroup;
+			children = (
+				BD6165521799FCE200FA7F74 /* AirPlayMacServer */,
+				BD61656F1799FCE200FA7F74 /* AirPlayMacServerTests */,
+				BD61654B1799FCE200FA7F74 /* Frameworks */,
+				BD61654A1799FCE200FA7F74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD61654A1799FCE200FA7F74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD6165491799FCE200FA7F74 /* AirPlayMacServer.app */,
+				BD6165691799FCE200FA7F74 /* AirPlayMacServerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD61654B1799FCE200FA7F74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD61654C1799FCE200FA7F74 /* Cocoa.framework */,
+				BD61656A1799FCE200FA7F74 /* SenTestingKit.framework */,
+				BD61654E1799FCE200FA7F74 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD61654E1799FCE200FA7F74 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD61654F1799FCE200FA7F74 /* AppKit.framework */,
+				BD6165501799FCE200FA7F74 /* CoreData.framework */,
+				BD6165511799FCE200FA7F74 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		BD6165521799FCE200FA7F74 /* AirPlayMacServer */ = {
+			isa = PBXGroup;
+			children = (
+				BD61655E1799FCE200FA7F74 /* AppDelegate.h */,
+				BD61655F1799FCE200FA7F74 /* AppDelegate.m */,
+				BD6165611799FCE200FA7F74 /* MainMenu.xib */,
+				BD6165531799FCE200FA7F74 /* Supporting Files */,
+			);
+			path = AirPlayMacServer;
+			sourceTree = "<group>";
+		};
+		BD6165531799FCE200FA7F74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD6165541799FCE200FA7F74 /* AirPlayMacServer-Info.plist */,
+				BD6165551799FCE200FA7F74 /* InfoPlist.strings */,
+				BD6165581799FCE200FA7F74 /* main.m */,
+				BD61655A1799FCE200FA7F74 /* AirPlayMacServer-Prefix.pch */,
+				BD61655B1799FCE200FA7F74 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD61656F1799FCE200FA7F74 /* AirPlayMacServerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD6165751799FCE200FA7F74 /* AirPlayMacServerTests.h */,
+				BD6165761799FCE200FA7F74 /* AirPlayMacServerTests.m */,
+				BD6165701799FCE200FA7F74 /* Supporting Files */,
+			);
+			path = AirPlayMacServerTests;
+			sourceTree = "<group>";
+		};
+		BD6165701799FCE200FA7F74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD6165711799FCE200FA7F74 /* AirPlayMacServerTests-Info.plist */,
+				BD6165721799FCE200FA7F74 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD6165481799FCE200FA7F74 /* AirPlayMacServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD61657A1799FCE200FA7F74 /* Build configuration list for PBXNativeTarget "AirPlayMacServer" */;
+			buildPhases = (
+				BD6165451799FCE200FA7F74 /* Sources */,
+				BD6165461799FCE200FA7F74 /* Frameworks */,
+				BD6165471799FCE200FA7F74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirPlayMacServer;
+			productName = AirPlayMacServer;
+			productReference = BD6165491799FCE200FA7F74 /* AirPlayMacServer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD6165681799FCE200FA7F74 /* AirPlayMacServerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD61657D1799FCE200FA7F74 /* Build configuration list for PBXNativeTarget "AirPlayMacServerTests" */;
+			buildPhases = (
+				BD6165641799FCE200FA7F74 /* Sources */,
+				BD6165651799FCE200FA7F74 /* Frameworks */,
+				BD6165661799FCE200FA7F74 /* Resources */,
+				BD6165671799FCE200FA7F74 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD61656E1799FCE200FA7F74 /* PBXTargetDependency */,
+			);
+			name = AirPlayMacServerTests;
+			productName = AirPlayMacServerTests;
+			productReference = BD6165691799FCE200FA7F74 /* AirPlayMacServerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD6165411799FCE100FA7F74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Alex Corre";
+			};
+			buildConfigurationList = BD6165441799FCE100FA7F74 /* Build configuration list for PBXProject "AirPlayMacServer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BD6165401799FCE100FA7F74;
+			productRefGroup = BD61654A1799FCE200FA7F74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD6165481799FCE200FA7F74 /* AirPlayMacServer */,
+				BD6165681799FCE200FA7F74 /* AirPlayMacServerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD6165471799FCE200FA7F74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD6165571799FCE200FA7F74 /* InfoPlist.strings in Resources */,
+				BD61655D1799FCE200FA7F74 /* Credits.rtf in Resources */,
+				BD6165631799FCE200FA7F74 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD6165661799FCE200FA7F74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD6165741799FCE200FA7F74 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BD6165671799FCE200FA7F74 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD6165451799FCE200FA7F74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD6165591799FCE200FA7F74 /* main.m in Sources */,
+				BD6165601799FCE200FA7F74 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD6165641799FCE200FA7F74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD6165771799FCE200FA7F74 /* AirPlayMacServerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD61656E1799FCE200FA7F74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD6165481799FCE200FA7F74 /* AirPlayMacServer */;
+			targetProxy = BD61656D1799FCE200FA7F74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD6165551799FCE200FA7F74 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD6165561799FCE200FA7F74 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BD61655B1799FCE200FA7F74 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD61655C1799FCE200FA7F74 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		BD6165611799FCE200FA7F74 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD6165621799FCE200FA7F74 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		BD6165721799FCE200FA7F74 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD6165731799FCE200FA7F74 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD6165781799FCE200FA7F74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BD6165791799FCE200FA7F74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BD61657B1799FCE200FA7F74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirPlayMacServer/AirPlayMacServer-Prefix.pch";
+				INFOPLIST_FILE = "AirPlayMacServer/AirPlayMacServer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BD61657C1799FCE200FA7F74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirPlayMacServer/AirPlayMacServer-Prefix.pch";
+				INFOPLIST_FILE = "AirPlayMacServer/AirPlayMacServer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BD61657E1799FCE200FA7F74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AirPlayMacServer.app/Contents/MacOS/AirPlayMacServer";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirPlayMacServer/AirPlayMacServer-Prefix.pch";
+				INFOPLIST_FILE = "AirPlayMacServerTests/AirPlayMacServerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		BD61657F1799FCE200FA7F74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AirPlayMacServer.app/Contents/MacOS/AirPlayMacServer";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirPlayMacServer/AirPlayMacServer-Prefix.pch";
+				INFOPLIST_FILE = "AirPlayMacServerTests/AirPlayMacServerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD6165441799FCE100FA7F74 /* Build configuration list for PBXProject "AirPlayMacServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD6165781799FCE200FA7F74 /* Debug */,
+				BD6165791799FCE200FA7F74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD61657A1799FCE200FA7F74 /* Build configuration list for PBXNativeTarget "AirPlayMacServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD61657B1799FCE200FA7F74 /* Debug */,
+				BD61657C1799FCE200FA7F74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD61657D1799FCE200FA7F74 /* Build configuration list for PBXNativeTarget "AirPlayMacServerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD61657E1799FCE200FA7F74 /* Debug */,
+				BD61657F1799FCE200FA7F74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD6165411799FCE100FA7F74 /* Project object */;
+}
