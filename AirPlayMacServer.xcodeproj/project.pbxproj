@@ -387,6 +387,7 @@
 				GCC_PREFIX_HEADER = "AirPlayMacServer/AirPlayMacServer-Prefix.pch";
 				INFOPLIST_FILE = "AirPlayMacServer/AirPlayMacServer-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -399,6 +400,7 @@
 				GCC_PREFIX_HEADER = "AirPlayMacServer/AirPlayMacServer-Prefix.pch";
 				INFOPLIST_FILE = "AirPlayMacServer/AirPlayMacServer-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
