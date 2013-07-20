@@ -10,9 +10,29 @@
 
 @implementation AppDelegate
 
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification
-{
+- (void)awakeFromNib {
   // Insert code here to initialize your application
+  [self setupNavigationItem];
 }
+
+- (void)setupNavigationItem {
+  NSStatusBar *bar = [NSStatusBar systemStatusBar];
+  self.statusItem = [bar statusItemWithLength:NSVariableStatusItemLength];
+  
+  [self.statusItem setTitle: @"Server"];
+  
+  [self.statusItem setMenu:self.barMenu];
+  [self.statusItem setHighlightMode:YES];
+}
+
+- (IBAction)startServer:(id)sender {
+  NSLog(@"starting server...");
+}
+
+- (IBAction)stopServer:(id)sender {
+  NSLog(@"stopping server...");
+}
+
+
 
 @end
