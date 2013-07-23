@@ -386,6 +386,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AirPlayMacServer/AirPlayMacServer-Prefix.pch";
 				INFOPLIST_FILE = "AirPlayMacServer/AirPlayMacServer-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx10.7;
 				WRAPPER_EXTENSION = app;
@@ -399,6 +400,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AirPlayMacServer/AirPlayMacServer-Prefix.pch";
 				INFOPLIST_FILE = "AirPlayMacServer/AirPlayMacServer-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx10.7;
 				WRAPPER_EXTENSION = app;
@@ -454,6 +456,7 @@
 				BD61657C1799FCE200FA7F74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD61657D1799FCE200FA7F74 /* Build configuration list for PBXNativeTarget "AirPlayMacServerTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +465,7 @@
 				BD61657F1799FCE200FA7F74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
